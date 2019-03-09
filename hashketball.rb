@@ -241,10 +241,3 @@ def most_points_scored
   most_points
 end 
 
-def winning_team
-  winer = ""
-  all_players = game_hash[:home][:players].merge(game_hash[:away][:players])
-  game_hash.each do |location, stats|
-    stats.select {|key,values| key.has_key?(:players)}
-end 
-
