@@ -256,6 +256,7 @@ end
        expect(most_points_scored).to eq("Ben Gordon")
      end
   end
+end 
 
 #   describe '#winning_team' do
 
@@ -285,4 +286,4 @@ end
 
 #   end
 
-# end
+# end 
