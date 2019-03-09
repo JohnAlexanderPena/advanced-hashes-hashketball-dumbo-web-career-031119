@@ -238,7 +238,7 @@ def most_points_scored
   most_points = ""
   all_players = game_hash[:home][:players].merge(game_hash[:away][:players])
   most_points = all_players.max_by{|player, stats| stats.fetch(:points)}[0]
-  most_points[:points]
+  most_points
 end 
 
 
