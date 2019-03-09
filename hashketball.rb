@@ -236,5 +236,7 @@ end
 
 def most_points_scored
   most points = ""
-  
+  all_players = game_hash[:home][:players].merge(game_hash[:away][:players])
+  all_players 
+
 end 
