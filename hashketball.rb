@@ -244,6 +244,7 @@ end
 def winning_team
   winer = ""
   all_players = game_hash[:home][:players].merge(game_hash[:away][:players])
-  
+  game_hash.each do |location, stats|
+    stats.find
 end 
 
